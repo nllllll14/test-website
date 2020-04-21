@@ -1,0 +1,348 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    font-family: 'Noto Serif JP', serif;
+    width: 100%;
+    height: 74px;
+    background-color: rgba(255, 255, 255, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #333333;
+    font-family: sans-Serif;
+    opacity: 0.6;
+}
+
+p {
+    color: #333333;
+    font-size: 13px;
+}
+
+.logo {
+    width: 97px;
+    margin: 2px 0 2px 40px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    font-size: 14px;
+    float: right;
+    margin-right: 40px;
+}
+
+.header-right a {
+    color: #333333;
+    line-height: 74px;
+    padding: 0 30px;
+    display: block;
+    float: left;
+    transition: all 0.8s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+/* ここからは index.html 用です */
+
+
+.top-wrapper {
+    padding: 100px 0 50px 0;
+    background-image: url(images/home_pic.jpg);
+    background-size: cover;
+}
+
+.top-wrapper h1 {
+    font-size: 50px;
+    padding: 30px 50px;
+    letter-spacing: 10px;
+}
+
+.top-wrapper p {
+    font-family: 'Noto Serif JP', serif;
+    opacity: 0.8;
+    padding: 0 30px;
+}
+
+.top-container {
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.news-wrapper h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 37px;
+    text-align: center;
+}
+
+.news-container {
+    height: 600px;
+    width: 100%;
+    background-color: white;
+    border-top: solid 4px #e1f4f3;
+}
+
+.news-wrapper {
+    background-color: #e1f4f3;
+    margin: 40px;
+    padding: 50px 150px;
+}
+
+.news-headname {
+    background-color: white;
+}
+
+.news-container h2 {
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+
+/* ここからは about.html 用です */
+
+
+.about-wrapper {
+    background-color: #e1f4f3;
+    margin: 40px;
+    padding: 50px 150px;
+}
+
+.about-wrapper h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+    padding: 25px 40px 0 40px;
+    letter-spacing: 10px;
+}
+
+.about-headname {
+    background-color: white;
+}
+
+.about-container {
+    background-color: white;
+    padding: 40px 0 50px 0;
+    border-top: solid 4px #e1f4f3;
+}
+
+.about-container h2 {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.about-table {
+    width: 100%;
+    padding: 15px 60px 40px 60px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.about-table td {
+    border: solid 1px #5b5656;
+    opacity: 0.6;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+
+/* ここからは description.html 用です */
+
+
+.description-wrapper {
+    background-color: #e1f4f3;
+    margin: 40px;
+    padding: 50px 150px;
+}
+
+.description-wrapper h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+    padding: 25px 40px 0 40px;
+    letter-spacing: 10px;
+}
+
+.description-headname {
+    background-color: white;
+}
+
+.description-container {
+    background-color: white;
+    padding: 40px 0 50px 0;
+    border-top: solid 4px #e1f4f3;
+}
+
+.description-container h2 {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.description-table {
+    width: 100%;
+    padding: 15px 60px 40px 60px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.description-table td {
+    border: solid 1px #5b5656;
+    opacity: 0.6;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+
+
+/* ここからは history.html 用です */
+
+
+.history-wrapper {
+    background-color: #e1f4f3;
+    margin: 40px;
+    padding: 50px 150px;
+}
+
+.history-wrapper h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+    padding: 25px 40px 0 40px;
+    letter-spacing: 10px;
+}
+
+.history-headname {
+    background-color: white;
+}
+
+.history-container {
+    background-color: white;
+    padding: 40px 0 50px 0;
+    border-top: solid 4px #e1f4f3;
+}
+
+.history-container h2 {
+    text-align: center;
+    opacity: 0.8;
+}
+
+.history-table {
+    width: 100%;
+    padding: 15px 60px 40px 60px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.history-table td {
+    border: solid 1px #5b5656;
+    opacity: 0.6;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* ここからは access.html 用です */
+
+
+.access-wrapper {
+    background-color: #e1f4f3;
+    margin: 40px;
+    padding: 50px 150px;
+}
+
+.access-wrapper h1 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 30px;
+    padding: 25px 40px 0 40px;
+    letter-spacing: 10px;
+}
+
+.access-headname {
+    background-color: white;
+}
+
+.access-container {
+    background-color: white;
+    padding-top: 30px;
+    border-top: solid 4px #e1f4f3;
+    height: 1000px;
+}
+
+.access-container h2 {
+    text-align: center;
+    opacity: 0.8;
+    padding-bottom: 10px;
+}
+
+.access-block {
+    clear: right;
+    padding: 10px 25px 25px 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    border: solid 2px #333333;
+    border-radius: 3px;
+    height: 400px;
+    width: 600px;
+}
+
+.host-text , .tokyo-text {
+    float: left;
+    padding-top: 80px;
+}
+
+.host-map , .tokyo-map {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+/* ここからは フッター 用です */
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #706c61;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+footer p {
+    font-size: 11px;
+    color: #333333;
+
+}
